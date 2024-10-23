@@ -21,10 +21,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Resource Group
+- Create a Virtual Network and Subnet
+- Create the Domain Controller VM (Windows Servers 2022) and Client VM (Windows 10)
+- Use Powershell to ping DC 1's private IP address and then switch to Client 1 and run ipconfig /all to show DC 1's private IP address
+- Install Active Directory
 
 <h2>Deployment and Configuration Steps</h2>
 
